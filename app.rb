@@ -1,11 +1,12 @@
 def hello(string)
   puts string
  end
-hello("Hello World")
+
 
 def Hey(nom)
 	puts "Hi, #{nom}"
-end 
+end
+hello("Hello World") 
 
-Hi("bob")
-Hi("aldair")
+Hey("bob")
+Hey("aldair")
