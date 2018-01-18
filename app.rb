@@ -14,5 +14,8 @@ Hey("alice")
 
 hello("Hello World") 
 
-voiture_hamza = Voiture.new 
+voiture_hamza = Voiture.new #toutes les class doivent démarrer avec une majuscule
 voiture_hamza.klaxonner 
+
+voiture_hamza.tourner("droite")
+voiture_hamza.tourner("gauche")
