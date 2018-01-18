@@ -1,5 +1,6 @@
 class Voiture 
 
+	attr_reader :couleur
 
 	def initialize(couleur)
 		@couleur = couleur
@@ -23,6 +24,10 @@ class Voiture
 
 	def afficher_ma_couleur()
 		puts "j'ai une voiture de couleur #{@couleur} !"
+	end
+
+	def pimp_ma_caisse(couleur)
+		@couleur = couleur
 	end
 
 end

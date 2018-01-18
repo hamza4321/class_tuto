@@ -14,10 +14,12 @@ Hey("alice")
 
 hello("Hello World") 
 
-voiture_hamza = Voiture.new("verte") #toutes les class doivent démarrer avec une majuscule
+voiture_hamza = Voiture.new("rouge") #toutes les class doivent démarrer avec une majuscule
 voiture_hamza.klaxonner 
 
 voiture_hamza.tourner("d")
 voiture_hamza.tourner("g")
 voiture_hamza.afficher_ma_couleur()
-#voiture_hamza.pimp_ma_caisse("mauve")
+#voiture_hamza.pimp_ma_caisse("verte")
+
+voiture_hamza.afficher_ma_couleur()
